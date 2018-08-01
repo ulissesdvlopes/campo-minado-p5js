@@ -1,0 +1,25 @@
+html {
+    background-color: rgb(190,190,190);
+}
+header {
+    width: 340px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5em;
+}
+
+header p {
+    background-color: rgb(255, 140, 130);
+    padding: .5em;
+    border: 1px solid black;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+}

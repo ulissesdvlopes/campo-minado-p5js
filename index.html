@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <script>
+        function desabilitar(){ 
+            return false 
+        } 
+
+        document.oncontextmenu=desabilitar
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <script src="Mina.js"></script>
+    <script src="Celula.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <style> body {padding: 0; margin: 0;} </style>
+  </head>
+  <body>
+      
+      <header>
+          <p><img src="mina.png">  <span id="qtd-minas"></span></p>
+          <select>
+              <option disabled>Nível</option>
+              <option>Fácil</option>
+              <option>Médio</option>
+              <option>Difícil</option>
+          </select>
+          <button id="reset"><i class="material-icons">restore</i></button>
+          <p><i class="material-icons">schedule</i>  <span id="minutos">00</span>:<span id="segundos">00</span></p>
+      </header>
+      
+      <script src="menu.js">      
+      </script>
+  </body>
+</html>
